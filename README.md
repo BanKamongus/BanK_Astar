@@ -1,0 +1,21 @@
+SIMPLE A* PATHFINDING ALGORITHM 
+Made by Krittin Naliwong
+Experimental feature for personal game project
+Planed to apply it on Unity
+This is just a visualization of how A* reacts to environment 
+
+HOW TO USE
+[ NOTE: Make sure to resize your Command Prompt window properly ]
+[	g++ Test1.cpp, g++ Test2.cpp etc..			]
+Use MinGW to compile test files
+Once executed the algorithm will run on the Command Prompt
+and wait for you to input how many steps to continue 
+If the destination is already found
+The algorithm will stop walking regardless of your input
+type 0 to exit program
+
+(S)= StartNode
+(E)= EndNode(Destination)
+setObstacle(Point(5, 6), Point(8, 6)) //fills obstacle as line between points
+setObstacle will sometimes overwrite End point(E) please beware of that
+Explore()//Start finding the paths
